@@ -1,0 +1,56 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.card {
+  padding: 2em;
+}
+
+.title {
+  color: white;
+  font-size: 30px;
+  text-align: left;
+}
+
+.dynamic-delete-button {
+  position: relative;
+  top: 4px;
+  margin: 0 8px;
+  color: mistyrose;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.dynamic_form_item {
+  width: 750px;
+}
+
+.add-button {
+  width: 35%;
+}
+
+.submit-button:hover {
+  filter: drop-shadow(2px 0 0.5em #646cffaa);
+}
+.add-button:hover {
+  filter: drop-shadow(1px 0 0.5em gray);
+}
+
+
+.dynamic-delete-button:hover {
+  color: red;
+  filter: drop-shadow(2px 0 0.5em mediumvioletred);
+}
+.dynamic-delete-button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+
+.ant-card-head-title {
+  font-size: 25px;
+}
